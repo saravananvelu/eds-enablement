@@ -1,1 +1,19 @@
 
+/* Outer wrapper */
+.display-name-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+/* Display name block */
+.display-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Remove default paragraph spacing */
+.display-name p {
+  margin: 0;
+  padding: 0;
+}
